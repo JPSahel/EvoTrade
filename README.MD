@@ -17,10 +17,8 @@ Evotrade is an AI-powered investment platform designed to make financial growth 
 
 Evotrade is designed to empower users with smarter financial decisions while keeping investing fun and accessible. 🚀
 
-## Backend
-
-### Setup
-
+## Setup
+### Backend
 #### From Root Directory:
 
 ```
@@ -39,10 +37,7 @@ Evotrade is designed to empower users with smarter financial decisions while kee
 http://localhost:8000/admin
 ```
 
-## Frontend
-
-### Setup
-
+### Frontend
 #### From Root Directory:
 
 ```
