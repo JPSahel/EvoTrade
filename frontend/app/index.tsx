@@ -2,9 +2,9 @@ import { PropsWithChildren } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { PortfolioScreen } from "./screens/PortfolioScreen";
-import { TradeScreen } from "./screens/TradeScreen";
-import { HomeScreen } from "./screens/HomeScreen";
+import PortfolioScreen from "./screens/PortfolioScreen";
+import TradeScreen from "./screens/TradeScreen";
+import HomeScreen from "./screens/HomeScreen";
 import { Ionicons } from "@expo/vector-icons"; // For icons
 
 export const CustomText = ({ children }: PropsWithChildren) => (

@@ -1,13 +1,11 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
-import PortfolioChart from "../components/portfolioChart";
-export const HomeScreen = () => {
-  return (
-    <View style={styles.container}>
-      <PortfolioChart />
-    </View>
-  );
+import { View, StyleSheet } from "react-native";
+
+const HomeScreen = () => {
+  return <View style={styles.container}></View>;
 };
+
+export default HomeScreen;
 
 const styles = StyleSheet.create({
   container: {
