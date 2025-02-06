@@ -1,6 +1,6 @@
 # Evotrade
 
-**Smart Investing, Simplified.**
+**Democratizing Markets, Empowering Investors**
 
 Evotrade is an AI-powered investment platform designed to make financial growth accessible for everyone. Our work-in-progress MVP focuses on foundational features that blend personalized education, intelligent risk assessment, and seamless trading options.
 
