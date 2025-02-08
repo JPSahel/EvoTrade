@@ -5,6 +5,8 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import PortfolioScreen from "./screens/PortfolioScreen";
 import TradeScreen from "./screens/TradeScreen";
 import HomeScreen from "./screens/HomeScreen";
+import LandingScreen from "./screens/LandingScreen"; // Import Landing Screen
+
 import { Ionicons } from "@expo/vector-icons"; // For icons
 
 export const CustomText = ({ children }: PropsWithChildren) => (
@@ -26,17 +28,29 @@ export default function App() {
             iconName = "wallet-outline";
           } else if (route.name === "Trade") {
             iconName = "swap-horizontal-outline";
+          }else if (route.name === "Landing") {
+            iconName = "Landing-outline"; 
           }
 
           return <Ionicons name={iconName as any} size={size} color={color} />;
         },
         tabBarActiveTintColor: "blue",
         tabBarInactiveTintColor: "gray",
+        headerShown: false, 
+
       })}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Portfolio" component={PortfolioScreen} />
       <Tab.Screen name="Trade" component={TradeScreen} />
+      <Tab.Screen name="Landing" component={LandingScreen} />
     </Tab.Navigator>
   );
 }
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});
