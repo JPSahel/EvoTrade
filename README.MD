@@ -1,4 +1,4 @@
-# Evotrade - Finance APP
+# Evotrade 
 
 **Democratizing Markets, Empowering Investors**
 
