@@ -1,4 +1,4 @@
-# Evotrade
+# Evotrade 
 
 **Democratizing Markets, Empowering Investors**
 
